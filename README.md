@@ -13,7 +13,7 @@ It has dependencies:
 # nodemailer
 
 A mail will be sent upon submit the contact form!!!
-
+Fill up the form in the "contact" page and press submit button. It will send a mail to the submitted email address.
 
 # Features
 

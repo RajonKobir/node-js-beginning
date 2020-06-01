@@ -456,8 +456,8 @@ let mailOptions = {
   from: 'Rajon Kobir', 
   to: req.body.email,
   subject: 'Nodemailer - Test',
-  //text: 'Wooohooo it works!!'
-  html: "<b>" +req.body.name+ "</b><h1> https://myaccount.google.com/lesssecureapps </h1> <table> <tr> <th> Name </th> <th> Roll </th> <th> Class </th> </tr> <tr> <td> Anil </td> <td> 01 </td> <td> 5 </td> </tr> <tr>  <td> Sunil </td> <td> 02 </td> <td> 5 </td> </tr> </table> ",
+  text: 'Welcome From Rajon Kobir!!'
+  // html: "<b>" +req.body.name+ "</b><h1> https://myaccount.google.com/lesssecureapps </h1> <table> <tr> <th> Name </th> <th> Roll </th> <th> Class </th> </tr> <tr> <td> Anil </td> <td> 01 </td> <td> 5 </td> </tr> <tr>  <td> Sunil </td> <td> 02 </td> <td> 5 </td> </tr> </table> ",
     // html: req.body.name
 };
 
