@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <%- include('partials/nav.ejs') -%>
+
+    <center>
+        <h1> Thanks for submitting!!!! </h1>
+        <strong> Name: </strong> <%= data.name %> <br>
+        <strong> Department: </strong> <%= data.dept %> <br>
+<h1>An Email Has Been Sent To <i> <%= data.email %> </i> </h1>
+    </center>
+
+
+    
+</body>
+</html>
