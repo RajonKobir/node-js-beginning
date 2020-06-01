@@ -12,5 +12,15 @@ It has dependencies:
 
 # nodemailer
 
-A mail will be sent upon submit contact form!!!
+A mail will be sent upon submit the contact form!!!
+
+
+# Features
+
+1. Routing
+2. CRUD
+3. Template Engines
+4. MVC
+
+Look into app.js file. There are many more functions out there, which are commented out.
 
